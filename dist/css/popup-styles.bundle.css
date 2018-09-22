@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bi-overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 16;
+  left: 0;
+  top: 0;
+  overflow-x: hidden;
+}
+.bi-overlay.bi-black {
+  background-color: #000000;
+  /* Black fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/opacity */
+}
+
